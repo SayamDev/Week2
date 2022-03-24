@@ -186,19 +186,19 @@ fieldset {
   template {
     display: none;
   }
-  [hidden] {
-    display: none;
-  }
-
+ 
   /*CSS Reset Styling*/
+
+
 
   /*colors root*/
   :root{
-      --mainColor: #000000;
-      --secondColor: #005eb8;
-      --thirdColor: #ffffff;
-      --fourthColour: #edf6ff;
-      --fifthColour: #00a2b3;
-      --footerNHover: #071d49;
-      --fontFamily: 'Source Sans Pro', sans-serif;
-  }
+    --mainColor: #000000;
+    --secondColor: #005eb8;
+    --thirdColor: #ffffff;
+    --fourthColour: #edf6ff;
+    --fifthColour: #00a2b3;
+    --footerNHover: #071d49;
+    --fontFamily: 'Source Sans Pro', sans-serif;
+}
+

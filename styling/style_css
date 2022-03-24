@@ -1,5 +1,4 @@
-/*reset css*/
-
+/*CSS reset styling*/
 html {
     box-sizing: border-box;
     line-height: 1.15; /* 1 */

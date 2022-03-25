@@ -286,4 +286,12 @@ header {
   padding: 12px 10px;
   box-shadow: none;
   text-align: left;
+} 
+
+
+.main_img{
+  display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
 }

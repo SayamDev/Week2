@@ -207,6 +207,7 @@ fieldset {
 
 /*container*/
 
+
 .container{
   max-width: 1000px;
   margin: 0 auto;
@@ -221,14 +222,12 @@ header {
   padding: 30px 10%;
   background-color: var(--secondColor);
   margin: 0 auto;
-  border: 5px solid lawngreen;
 }
 
 .logo {
   cursor: pointer;
   order: 1;
   margin-right: auto;
-  max-width: 1000px;
 }
 
 .first_nav {
@@ -294,4 +293,52 @@ header {
     flex-direction: column;
     height: 100%;
     position: relative;
+    padding-top: 1px;
+}
+
+.main_img img{
+  height: 488px;
+}
+
+.square .text_img{
+
+  color:var(--thirdColor);
+  line-height: 2.889rem;
+  margin-bottom: 12px;
+  max-width: 100%;
+  width: 100%;
+  font-weight: 600;
+  font-size: 2.666rem;
+}
+
+.square{
+  zoom: 1;
+    background: #005eb8;
+    border-radius: 6px;
+    margin: 0 0 0 45px;
+    padding: 20px 30px 30px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 520px;
+}
+
+/*
+.main_img .img_button{
+  position: absolute;
+  border: 5px solid blue;
+}
+
+
+/*
+.btn{
+  border-radius: 28px;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin: 0;
+    text-decoration: none;
+    word-break: break-word;
 }

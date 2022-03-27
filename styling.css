@@ -317,7 +317,7 @@ header {
 
 .square{
   zoom: 1;
-    background: #005eb8;
+    background: var(--secondColor);
     border-radius: 6px;
     margin: 0 0 0 45px;
     padding: 20px 30px 30px;
@@ -332,7 +332,7 @@ header {
 
 
 .find_more{
-  background-color: #fff;
+  background-color: var(--thirdColor);
   max-width: 278px;
   min-width: 188px;
   text-align: center;
@@ -434,4 +434,22 @@ text-align: center;
 strong{
   font-weight: 600;
   font-size: 18px;
+}
+
+.btn_secondary{
+  align-self: flex-start;
+  display: inline-block;
+  margin: 12px 24px 12px 0;
+  background-color: transparent;
+  border: 2px solid var(--secondColor);
+  color: var(--secondColor);
+  padding: 8px 24px;
+  text-align: center;
+  border-radius: 28px;
+}
+
+.banking_text {
+  margin-top: 12px;
+  text-align: center;
+  
 }

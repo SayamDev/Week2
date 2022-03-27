@@ -378,6 +378,8 @@ header {
   display: flex;
   background-color: var(--fourthColour);
   margin-top: 30px;
+  border-radius:7px;
+  margin-bottom: 30px;
   
 }
 
@@ -534,4 +536,16 @@ footer{
 .ftr_sec ul li{
   padding-bottom: 10px;
   text-align: left;
+  
+}
+
+.ft_three hr{
+  color: var(--thirdColor);
+  width: 340px;
+  
+}
+
+.ft_three li{
+  font-size: 1.6666rem;
+  padding-top: 20px;
 }

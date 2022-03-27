@@ -530,6 +530,10 @@ footer{
 
 }
 
+.ftr_sec{
+  margin-bottom: 50px;
+}
+
 .ftr_sec h2{
   font-weight: 600;
   margin-bottom: 30px;
@@ -571,8 +575,6 @@ footer{
   color: var(--thirdColor);
   display: flex;
   flex-direction: row;
-  
-
 }
 
 .bottom_footer_wrapper{

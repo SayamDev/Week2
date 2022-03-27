@@ -219,9 +219,10 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 10%;
   background-color: var(--secondColor);
   margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .logo {
@@ -377,6 +378,7 @@ header {
   display: flex;
   background-color: var(--fourthColour);
   margin-top: 30px;
+  
 }
 
 .bank_inside_container{
@@ -384,7 +386,12 @@ display: flex;
 flex-direction: column;
 height: 100%;
 padding: 24px 24px 30px;
-text-align: center;
+text-align: left;
+
+}
+
+.fa-solid{
+  padding-top: 20px;
 }
 
 .xmlns{
@@ -397,7 +404,10 @@ text-align: center;
   line-height: 1.888rem;
   font-weight: 600;
   font-size: 1.666rem;
+  text-align: left;
 }
+
+
 
 .bnk_reg_text{
   align-self: flex-start;
@@ -450,6 +460,15 @@ strong{
 
 .banking_text {
   margin-top: 12px;
-  text-align: center;
-  
+  text-align: left;
+}
+
+.banking_text p{
+  padding-top: 10px;
+}
+
+
+.bnk_txt{
+  line-height: 1.8888rem;
+  font-size: 18px;
 }

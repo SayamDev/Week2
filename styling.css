@@ -343,7 +343,7 @@ header {
   color: var(--secondColor);
   border-radius: 28px;
   display: inline-block;
-  font-size: 1rem;
+  font-size: 18px;
   font-weight: 600;
   line-height: 1.5rem;
   margin: 0;
@@ -422,11 +422,16 @@ text-align: center;
   color: var(--thirdColor);
   border-radius: 28px;
   display: inline-block;
-  font-size: 1rem;
+  font-size: 18px;
   font-weight: 600;
   line-height: 1.5rem;
   margin: 0;
   text-decoration: none;
   word-break: break-word;
   padding: 10px 24px;
+}
+
+strong{
+  font-weight: 600;
+  font-size: 18px;
 }

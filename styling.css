@@ -472,3 +472,35 @@ strong{
   line-height: 1.8888rem;
   font-size: 18px;
 }
+
+/*footer*/
+
+.footer_container{
+background-color: #005eb8;
+color: var(--thirdColor);
+}
+footer{
+  background-color: var(#005eb8);
+  margin: 0 auto;
+  width: 1100px;
+ 
+}
+
+.back_to_top{
+ font-size: 18px;
+ padding-right: 20px;
+}
+
+.move_up{
+  padding-right: 5x;
+}
+
+.footer_txt_one{
+  display: flex;
+  justify-content:flex-end;
+  border-bottom:  1.5px solid var(--thirdColor);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+

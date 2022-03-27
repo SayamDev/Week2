@@ -391,3 +391,42 @@ text-align: center;
   width: 10px;
 }
 
+
+
+.banking_text h2{
+  line-height: 1.888rem;
+  font-weight: 600;
+  font-size: 1.666rem;
+}
+
+.bnk_reg_text{
+  align-self: flex-start;
+  text-align: center;
+  display: inline-block;
+  margin: 12px 24px 12px 0;
+  padding: 10px 24px;
+}
+
+
+
+
+.bnk_reg {
+  background-color: var(--secondColor);
+  max-width: 278px;
+  min-width: 188px;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.bnk_reg_text{
+  color: var(--thirdColor);
+  border-radius: 28px;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  margin: 0;
+  text-decoration: none;
+  word-break: break-word;
+  padding: 10px 24px;
+}

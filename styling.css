@@ -214,7 +214,7 @@ main{
 }
 
 
-/*header*/
+/*header---------------------------------------------------*/
 header {
   display: flex;
   justify-content: space-between;
@@ -302,7 +302,7 @@ header {
 } 
 
 
-/*main section*/
+/*main section----------------------------------------------*/
 
 .main_img{
   display: flex;
@@ -383,7 +383,7 @@ header {
 
 
 
-/*online banking*/
+/*online banking--------------------------------------------*/
 .online_banking_container{
   margin: 0 auto;
   width: 1100px;
@@ -489,7 +489,7 @@ strong{
   font-size: 18px;
 }
 
-/*footer*/
+/*footer--------------------------------------------*/
 
 .footer_container{
 background-color: #005eb8;
@@ -568,8 +568,17 @@ footer{
   padding-top: 20px;
 }
 
+.ftr_lnks{
+  color: var(--thirdColor);
+  text-decoration: none;
+}
 
-/*Bottom footer*/
+.ftr_lnks:hover{
+  text-decoration: underline;
+}
+
+
+/*Bottom footer---------------------------------*/
 .bottom_footer{
   background-color:var(--footerNHover);
   color: var(--thirdColor);
@@ -589,6 +598,16 @@ footer{
  justify-content: start;
  margin: auto 0;
  height: auto;
+
+}
+
+.left-footer-links{
+  color: var(--thirdColor);
+  text-decoration: none;
+}
+
+.left-footer-links:hover{
+  text-decoration: underline;
 }
 
 .left-footer p{
